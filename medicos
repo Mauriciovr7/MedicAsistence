@@ -1,0 +1,9 @@
+drop table if exists medicos;
+create table medicos(
+id serial primary key,
+nombre varchar(255) not null);
+
+drop table if exists pacientes;
+create table pacientes(
+id serial primary key,
+nombre varchar(255) not null);
